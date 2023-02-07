@@ -64,6 +64,7 @@ class Stack:
         Returns:
             value (str): value of element peeked
         '''
+        print("SI FUNCIONO")
         if self.top == -1:
             return 'Stack is empty'
         
